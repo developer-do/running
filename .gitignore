@@ -1,0 +1,6 @@
+
+# 프로젝트 의존성
+node_modules
+
+public/dist
+dist
