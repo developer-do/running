@@ -10,9 +10,9 @@ module.exports = {
     },
     "rules": {
         "no-console": "off",
-        "indent": [
-            2,
-            4
+        "indent-size": [
+            true,
+            2
         ],
         "semi": [
             "error",
