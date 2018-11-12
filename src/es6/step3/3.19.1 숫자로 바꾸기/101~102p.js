@@ -9,4 +9,4 @@ const d = new Date();                   // 전체 날짜
 const ts = d.valueOf();                 // UTC 1970년 1월 1일 자정으로부터 몇 밀리초가 지났는지 나타내는 숫자
 
 const f = true;
-const n = f ? 1 : 0;
+const n = f ? 1 : 0;  
