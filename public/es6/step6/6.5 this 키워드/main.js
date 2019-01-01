@@ -18,9 +18,11 @@ console.log(`\n\n\n`);
 const o1 = {
   name: "Julie",
   greetBackwards: function () {
+    console.log(this);
     function getReverseName() {
       let nameBackwards = "";
-      let i;
+      let i; 
+      console.log(this);
       for (i = this.name.length - 1; i >= 0; i--) {
         nameBackwards += this.name[i];
       }
