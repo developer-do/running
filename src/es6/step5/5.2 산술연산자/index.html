@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>산술 연산자 표를 보고싶다면 러닝자바스크립트 책 142p를 살펴보길 바란다. </p>
+
+    <h1>자바스크립트의 숫자는 모두 더블 형식이므로 3/2처럼 정수를 연산한 결과도 더블형식이다.</h1>
+
+    
+</body>
+</html>
+    <script>
+        const x = 5;
+        const y = 3 - -x;
+        console.log(y);
+
+        const s = "5";
+        const y2 = 3 + +s;  // y는 8입니다. 단항 플러스를 사용하지 않았다면 문자열 병합이 일어나서 결과는 "35" 가 됩니다.
+
+        // 여기서는 굳이 단항 플럭스가 필요하지 않지만 줄을 잘 맞출수 있습니다.
+
+        const x1 = 0, x2 = 3, x3 = -1.5, x4 = -6.33;
+        const p1 = -x1+1;
+        const p2 = +x2+2;
+        const p3 = +x3+3;
+        const p4 = -x4+4;
+
+        console.log(`${p1} , ${p2} , ${p3}, ${p4}`);
+
+        let xx = 2;
+        const r1 = xx++ + xx++;
+        const r2 = ++xx + ++xx;
+        const r3 = xx++ + ++xx;
+        const r4 = ++xx + xx++;
+        console.log(`${r1}, ${r2}, ${r3}, ${r4}`);
+        let yy = 10;
+        const r5 = yy-- + yy--;
+        const r6 = --yy + --yy;
+        const r7 = yy-- + --yy;
+        const r8 = --yy + yy--;
+        console.log(`${r5}, ${r6}, ${r7}, ${r8}`);
+    </script>

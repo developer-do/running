@@ -13,10 +13,10 @@ module.exports = {
         "indent-size": [
             true,
             2
-        ],
-        "semi": [
-            "error",
-            "always"
         ]
+        // "semi": [
+        //     "error",
+        //     "always"
+        // ]
     }
 };
